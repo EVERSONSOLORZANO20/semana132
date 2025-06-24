@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo en Recuay - Ancash, Perú</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menú toggle -->
+    <div class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    <!-- Menú de navegación -->
+    <nav id="navMenu">
+        <ul>
+            <li><a href="#welcome">Bienvenidos</a></li>
+            <li><a href="#places">Lugares Turísticos</a></li>
+            <li><a href="#gallery">Galería</a></li>
+            <li><a href="#contact">Contacto</a></li>
+            <li><a href="#" id="uploadBtn">Subir Imágenes</a></li>
+            <input type="file" id="fileInput" accept="image/*" style="display: none;" multiple>
+        </ul>
+    </nav>
+    
+    <!-- Encabezado -->
+    <header>
+        
+        <div class="logo">RUTAS ANDINAS</div>
+        <div class="header-content">
+            <h1>Descubre la belleza de Recuay</h1>
+            <p>Explora los paisajes andinos, la rica cultura y la historia de esta hermosa provincia de Ancash</p>
+            <a href="#places" class="btn">Conoce más</a>
+        </div>
+    </header>
+    
+    <!-- Sección de bienvenida -->
+    <section class="welcome" id="welcome">
+        <h2>Bienvenidos a Recuay</h2>
+        <p>Recuay, es una provincia llena de encanto en la región de Ancash, Perú. Con sus impresionantes paisajes andinos, ricas tradiciones culturales y sitios arqueológicos fascinantes, Recuay ofrece una experiencia turística única que combina naturaleza, historia y aventura.</p>
+        <p>Nuestra provincia es el destino perfecto para aquellos que buscan conectarse con la naturaleza, explorar antiguas civilizaciones y disfrutar de la auténtica cultura andina.</p>
+    </section>
+    
+    <!-- Sección de lugares turísticos -->
+    <section class="places" id="places">
+        <h2>Lugares Turísticos</h2>
+        <div class="places-container">
+            <div class="place-card">
+                <div class="place-img">
+                    <img src="imagen.jpg" alt=" Antacocha">
+                </div>
+                <div class="place-info">
+                    <h3>Antacocha</h3>
+                    <p>Impresionante paisaje Un espectáculo natural que no te puedes perder.</p>
+                    <a href="#" class="btn">Ver más</a>
+                </div>
+            </div>
+            
+            <div class="place-card">
+                <div class="place-img">
+                    <img src="https://th.bing.com/th/id/OIP.O8MaH61r4_F1_wa_wVr9wAHaEL?rs=1&pid=ImgDetMain&cb=idpwebpc2" alt="Laguna Querococha">
+                </div>
+                <div class="place-info">
+                    <h3>Laguna Querococha</h3>
+                    <p>Hermosa laguna azul ubicada a más de 3,900 msnm, rodeada de imponentes montañas. Ideal para la observación de aves y paisajes andinos.</p>
+                    <a href="#" class="btn">Ver más</a>
+                </div>
+            </div>
+            
+            <div class="place-card">
+                <div class="place-img">
+                    <img src="https://th.bing.com/th/id/R.691ade538dc930c85211604b5b45f3e1?rik=TkF0F6WmLItQ1Q&riu=http%3a%2f%2fwww.socialhizo.com%2fimages%2fedad_antigua%2fcivilizaciones-andinas%2fcultura-recuay%2fhoncopampa.jpg&ehk=ARlgomTypg1h%2bazTYWEShHG5aFHlZBtW5DmJV44ErV0%3d&risl=&pid=ImgRaw&r=0" alt="Sitio Arqueológico de Honcopampa">
+                </div>
+                <div class="place-info">
+                    <h3>Honcopampa</h3>
+                    <p>Importante complejo arqueológico de la cultura Recuay, con estructuras de piedra, plazas ceremoniales y tumbas que datan del 200 al 600 d.C.</p>
+                    <a href="#" class="btn">Ver más</a>
+                </div>
+                </div>
+                <div class="place-card">
+                <div class="place-img">
+                    <img src="Imagen de WhatsApp 2025-06-23 a las 19.17.35_d2b035e9.jpg" alt="bosque de piedra">
+                </div>
+                <div class="place-info">
+                    <h3>Ancomache</h3>
+                    <p>centro turistico de la provincia de recuay  ancomache bosque de piedras </p>
+                    <a href="#" class="btn">Ver más</a>
+                </div>
+        </div>
+    </section>
+    
+    <!-- Galería con transición -->
+    <section class="gallery" id="gallery">
+        <h2>Galería de Imágenes</h2>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="https://consultasenlinea.mincetur.gob.pe/fichaInventario/foto.aspx?cod=406365" alt="Recuay 1">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="https://th.bing.com/th/id/OIP.O8MaH61r4_F1_wa_wVr9wAHaEL?rs=1&pid=ImgDetMain&cb=idpwebpc2" alt="Recuay 2">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="Imagen de WhatsApp 2025-06-23 a las 19.17.35_d2b035e9.jpg" alt="Recuay 3">
+            </div>
+            <div class="mySlides fade">
+                <img src="imagen2.jpg" alt="Recuay 3">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección de contacto -->
+    <section class="contact" id="contact">
+        <h2>Contacto</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Información de Contacto</h3>
+                <p><strong>Dirección:</strong> Plaza de Armas de Recuay, Ancash, Perú</p>
+                <p><strong>Teléfono:</strong> +51 982228690</p>
+                <p><strong>Email:</strong> eversonsolorzano12@gmail.com</p>
+                <p><strong>Horario de atención:</strong> Lunes a Viernes de 8:00 am a 5:00 pm</p>
+            </div>
+            
+            <div class="contact-form">
+                <h3>Envíanos un mensaje</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Turismo Recuay - SOLORZANO CORPUS EVERSON Todos los derechos reservados</p>
+        <p>Provincia de Recuay, Región Ancash, Perú</p>
+        
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+    
+    <script>
+        // Menú toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+        
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            
+            // Animación del botón hamburguesa
+            menuToggle.classList.toggle('active');
+        });
+        
+        // Subir imágenes
+        const uploadBtn = document.getElementById('uploadBtn');
+        const fileInput = document.getElementById('fileInput');
+        
+        uploadBtn.addEventListener('click', () => {
+            fileInput.click();
+        });
+        
+        fileInput.addEventListener('change', (e) => {
+            const files = e.target.files;
+            if (files.length > 0) {
+                alert(`Has seleccionado ${files.length} imagen(es) para subir.`);
+                // Aquí podrías agregar código para procesar y mostrar las imágenes subidas
+            }
+        });
+        
+        // Slideshow automático
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 3000); // Cambia la imagen cada 3 segundos
+        }
+    </script>
+</body>
+</html>
